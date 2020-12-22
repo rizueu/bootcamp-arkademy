@@ -1,0 +1,11 @@
+Algoritma Deteksi Palindrom:
+1. Mulai
+2. Inisialisasi variable text dan reversedText sebagai STRING
+3. Input text
+4. Cek apakah panjang dari nilai variable text > 1? Jika true maka lanjut, Jika false maka kembali ke step 3
+5. Convert nilai/value variable text menjadi LowerCase
+6. inisialisasi variable i = panjang nilai dari variable text dikurangi 1
+7. Jika i >= 0 maka variable reversedText akan diisi dengan variable text index ke-i, Jika false maka lanjut ke step ke-9
+8. decrement variable i, lalu kembali ke step 7
+9. Jika reversedText == text maka kembali ke step 3, Jika false maka cetak nilai variable text
+10. Selesai

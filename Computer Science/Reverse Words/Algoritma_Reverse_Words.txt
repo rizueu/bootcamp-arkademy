@@ -1,0 +1,9 @@
+Algoritma Reverse Words:
+1. Mulai
+2. Input text
+3. Cek apakah panjang dari nilai variable text > 1? Jika true maka lanjut, Jika false maka kembali ke step 2
+4. Pecah string variable text menjadi array dengan delimiter character 'spasi'
+5. reverse element array pada variable text
+6. concat/gabungkan setiap element dengan pembatas spasi menjadi sebuah String
+7. Cetak nilai variable text
+8. Selesai
