@@ -1,11 +1,11 @@
 const printSegitiga = (Arg) => {
-    let text = '';
+    let str = '';
     for( i = Arg; i > 0; i-- ){
         for( j = 1; j <= i; j++ ){
-            text += j;
+            str += j;
         }
-        console.log(text);
-        text = '';
+        console.log(str);
+        str = '';
     }
 }
 
