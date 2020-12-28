@@ -16,9 +16,9 @@ cekHariKerja('Sabtu').then((result) => console.log(result))
 */
 
 // .try dan .catch
-const kerja = async () => {
+const kerja = async (hari) => {
     try {
-        const res = await cekHariKerja('Senin');
+        const res = await cekHariKerja(hari);
         console.log(res);
     } catch (err) {
         throw err;
