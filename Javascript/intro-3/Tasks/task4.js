@@ -3,4 +3,5 @@ const url = 'https://jsonplaceholder.typicode.com/users';
 
 fetch(url)
     .then(res => res.json())
-    .then(data => console.log(data[0].name));
+    .then(data => console.log(data[0].name))
+    .catch(error => console.log(error));
