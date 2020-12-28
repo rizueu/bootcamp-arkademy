@@ -8,7 +8,8 @@ const score = {
 const {matematika, bahasaIndonesia, bahasaInggris, ipa} = score;
 
 const gradingScore = (...nilai) => {
-    const average = nilai.reduce((acc, curr) => acc + curr) / nilai.length;
+    let average = nilai.reduce((acc, curr) => acc + curr) / nilai.length;
+    average = Math.floor(average);
     if (average < 60){
         console.log(`Rata-Rata = ${average}`);
         console.log('Grade = E')
