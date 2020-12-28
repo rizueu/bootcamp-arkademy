@@ -9,8 +9,8 @@ const cekHariKerja = (day) => {
 }
 
 // .then dan .catch
-cekHariKerja('Sabtu').then((result) => console.log(result))
-                     .catch((err) => console.log(err))
+// cekHariKerja('Senin').then((result) => console.log(result))
+//                      .catch((err) => console.log(err))
 /*
     Sebuah objek Promise memiliki method then dan catch yang masing-masing memiliki fungsi untuk mengolah hasil sukses dan gagal
 */
@@ -25,7 +25,7 @@ const kerja = async (hari) => {
     }
 }
 
-kerja();
+kerja('Sabtu');
 
 /*
     try atau catch adalah sebuah statement yang bertugas untuk menangani beberapa atau semua kesalahan yang mungkin terjadi dalam satu blok code.

@@ -1,8 +1,8 @@
 const printSegitiga = (Arg) => {
     let str = '';
-    for( i = Arg; i > 0; i-- ){
-        for( j = 1; j <= i; j++ ){
-            str += j;
+    for( let vertical = Arg; vertical > 0; vertical-- ){
+        for( let horizontal = 1; horizontal <= vertical; horizontal++ ){
+            str += horizontal;
         }
         console.log(str);
         str = '';

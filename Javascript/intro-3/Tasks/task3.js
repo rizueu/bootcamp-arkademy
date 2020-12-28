@@ -8,7 +8,7 @@ const searchUser = (name) => {
     });
 }
 
-// searchUser('rizki').then(res => console.log(res)).catch(err => {throw err});
+// searchUser('Yang lain').then(res => console.log(res)).catch(err => {throw err});
 
 // Program 2
 const ujian = (nilai) => {
@@ -19,4 +19,4 @@ const ujian = (nilai) => {
     });
 }
 
-// ujian(70).then(res => console.log(res)).catch(err => console.log(err));
+ujian(50).then(res => console.log(res)).catch(err => console.log(err));

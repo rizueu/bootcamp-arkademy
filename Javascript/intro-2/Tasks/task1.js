@@ -41,16 +41,16 @@ const arrayString = ['Rizki', 'Zaqi', 'Mathius', 'Shafa'];
 // console.log(arrayString);
 
 // Method/Builtin Function pada Objek Math
-const num = 1.4;
+const num = 1.6;
 
 // 8. ceil()
 // Mengembalikan nilai yang dibulatkan ke atas ke bilangan bulat terdekat
-// console.log(Math.ceil(num));
+console.log(Math.ceil(num));
 
 // 9. floor()
 // Mengembalikan nilai yang dibulatkan ke bawah ke bilangan bulat terdekat
-// console.log(Math.floor(num));
+console.log(Math.floor(num));
 
 // 10. round()
 // Membulatkan nilai ke bilangan bulat terdekat
-// console.log(Math.round(num));
+console.log(Math.round(num));

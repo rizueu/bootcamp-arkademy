@@ -1,11 +1,13 @@
 const score = {
-    matematika: 100,
+    matematika: 50,
     bahasaIndonesia: 100,
     bahasaInggris: 100,
     ipa: 100
 }
 
 const {matematika, bahasaIndonesia, bahasaInggris, ipa} = score;
+
+[10 ,80, 90, 95, 100]
 
 const gradingScore = (...nilai) => {
     let average = nilai.reduce((acc, curr) => acc + curr) / nilai.length;
