@@ -1,0 +1,9 @@
+1.  Mulai
+2.  Inisialisasi randomNum: number | string,
+    Inisialisasi result: number
+3.  Inputkan parameter randomNum
+4.  Cek apakah tipe data randomNum adalah number? Jika iya Maka randomNum akan diubah menjadi string, lalu di pecah menjadi array dengan separator angka 0. Jika tidak Maka lanjut ke step nomor 5.
+5.  Cek apakah tipe data randomNum adalah string? Jika iya Maka randomNum akan langsung dipecah menjadi array dengan separator angka 0.
+6.  Setiap element pada array randomNum akan dipecah lagi menjadi array supaya kita bisa menyortir setiap elementnya, lalu kita satukan kembali dengan method join().
+7.  return/cetak result yang berisi array randomNum yang sudah dijadikan satu dengan method join(), lalu diubah menjadi integer dengan builtin funciton Number().
+8. Selesai
